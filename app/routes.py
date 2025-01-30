@@ -6,7 +6,7 @@ main_bp = Blueprint("main", __name__)
 
 
 @main_bp.route("/", methods=['GET'])
-def index():
+def get_info():
     """Returns basic information in JSON format."""
 
     response = {
