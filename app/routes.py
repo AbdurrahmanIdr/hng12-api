@@ -12,7 +12,7 @@ def index():
     response = {
         "email": "abdurrahmaneedrees@gmail.com",
         "current_datetime": datetime.now().isoformat() + "Z",
-        "github_url": "https://github.com/AbdurrahmanIdr/"
+        "github_url": "https://github.com/AbdurrahmanIdr/hng12-api.git"
     }
 
     return jsonify(response), 200
